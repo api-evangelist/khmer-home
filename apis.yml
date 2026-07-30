@@ -1,7 +1,16 @@
 aid: khmer-home
 name: Khmer Home
-description: Khmer Home is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Khmerhome (khmerhome.com) is Cambodia's real estate marketplace, based in
+  Phnom Penh, connecting buyers, renters, and property owners across houses, apartments,
+  condos, villas, boreys, land, warehouses, and commercial spaces. The platform offers
+  property search and browsing, sales and rental listings with photos and agent details,
+  property valuation and appraisal tools, an articles section covering Cambodian
+  economic and property developments, and community events for real estate
+  professionals and expats. Khmerhome ships native iOS and Android mobile apps and
+  operates alongside sister sites khmerload.com and khmercars.com. It was surfaced as
+  a portfolio company of 500 Global and profiled in the API Evangelist network. No
+  public developer/API surface, OpenAPI specification, or documentation portal has
+  been found at this time.
 url: https://raw.githubusercontent.com/api-evangelist/khmer-home/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://khmerhome.com/images/logo.png
 tags:
 - Company
+- Real Estate
+- Property
+- Marketplace
+- Cambodia
+- PropTech
+- Rentals
+- Property Listings
+- Valuation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/khmer-home-domain-security.yml
 - type: Website
   url: https://khmerhome.com
+- type: About
+  url: https://khmerhome.com/about
+- type: PrivacyPolicy
+  url: https://khmerhome.com/privacy
+- type: Blog
+  url: https://khmerhome.com/articles
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
