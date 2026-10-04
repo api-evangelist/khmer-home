@@ -46,7 +46,7 @@ modified: '2026-07-19'
 image: https://khmerhome.com/images/logo.png
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Property
 - Marketplace
 - Cambodia
@@ -64,6 +64,7 @@ tags_raw:
 - Rentals
 - Property Listings
 - Valuation
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
